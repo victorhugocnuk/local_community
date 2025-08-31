@@ -1,18 +1,14 @@
 {
-  "name": "community-portal",
+  "name": "local-community",
   "version": "1.0.0",
-  "description": "A community news portal built with Node.js, Express, EJS, and Better-SQLite3.",
-  "main": "app.js",
+  "description": "A web technologies coursework project for a local community portal.",
+  "main": "index.mjs",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.mjs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "better-sqlite3": "^9.4.3",
+    "better-sqlite3": "^11.2.0",
     "ejs": "^3.1.10",
-    "express": "^4.21.2",
-    "method-override": "^3.0.0"
+    "express": "^4.19.2"
   }
 }
